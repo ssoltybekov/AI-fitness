@@ -1,8 +1,23 @@
-.env
+# Python
+venv/
 __pycache__/
 *.pyc
-chroma_db/         
+
+# Environment
+.env
+
+# Video
 *.mp4
-*.mov               
-.pytest_cache/
-venv/
+*.mov
+*.avi
+
+# Database
+chroma_db/
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
